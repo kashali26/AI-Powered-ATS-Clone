@@ -1,87 +1,67 @@
-# Welcome to React Router!
+# ResumeMatch (RM)
 
-A modern, production-ready template for building full-stack React applications using React Router.
+AI-powered Resume Analyzer built with React and Puter.js. This application helps candidates upload and manage resumes, track applications, and receive AI-driven feedback to improve their chances of landing the right job.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## ✨ Features
 
-## Features
+- 🔐 **Seamless Authentication** – Secure login and user management.
+- 📂 **Resume Upload & Storage** – Easily upload resumes and access them anytime.
+- 🤖 **AI-Powered Resume Feedback** – Get personalized insights and ratings on your resume.
+- 🎯 **Job Matching** – Smart matching of candidates to relevant roles.
+- 📊 **Application Tracking** – Track submissions and view AI-generated resume ratings.
+- 🖥️ **Clean, Reusable UI** – Modern interface built with React components.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## 🛠️ Tech Stack
 
-## Getting Started
+- **Frontend:** React, TailwindCSS (if used)  
+- **Backend/Infra:** Puter.js  
+- **AI/ML:** Custom AI evaluation for resumes (expand if you used a specific model or API)  
+- **Auth & Storage:** Puter.js APIs  
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (>= 18.x recommended)  
+- npm or yarn package manager  
 
 ### Installation
 
-Install the dependencies:
-
 ```bash
+# Clone the repository
+git clone https://github.com/kashali26/AI-Powered-ATS-Clone.git
+
+# Navigate into the project folder
+cd AI-Powered-ATS-Clone
+
+# Install dependencies
 npm install
 ```
 
-### Development
-
-Start the development server with HMR:
+### Run Development Server
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
+### Build for Production
 
 ```bash
 npm run build
 ```
 
-## Deployment
+## 🔮 Future Plans
 
-### Docker Deployment
+- Integration with job boards (LinkedIn, Indeed, etc.)
+- Recruiter dashboard for managing candidates
+- More detailed AI feedback with actionable suggestions
+- Multi-language resume analysis
+- Mobile-first optimization
 
-To build and run using Docker:
+## 🤝 Contributing
 
-```bash
-docker build -t my-app .
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+## 📜 License
 
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+This project is licensed under the MIT License.
