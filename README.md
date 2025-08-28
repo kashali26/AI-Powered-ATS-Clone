@@ -1,4 +1,4 @@
-# ResumeMatch (RM) WIP
+# ResumeMatch (RM)
 
 AI-powered Resume Analyzer built with React and Puter.js. This application helps candidates upload and manage resumes, track applications, and receive AI-driven feedback to improve their chances of landing the right job.
 
@@ -15,7 +15,7 @@ AI-powered Resume Analyzer built with React and Puter.js. This application helps
 
 - **Frontend:** React, TailwindCSS 
 - **Backend/Infra:** Puter.js  
-- **AI/ML:** Custom AI evaluation for resumes 
+- **AI/ML:** Custom AI evaluation for resumes using Puter.js built in ChatBOT
 - **Auth & Storage:** Puter.js APIs  
 
 ## 🚀 Getting Started
