@@ -15,7 +15,7 @@ AI-powered Resume Analyzer built with React and Puter.js. This application helps
 
 - **Frontend:** React, TailwindCSS 
 - **Backend/Infra:** Puter.js  
-- **AI/ML:** Custom AI evaluation for resumes using Puter.js built in ChatBOT
+- **AI/ML:** Custom AI evaluation for resumes using Puter.js built in Claude
 - **Auth & Storage:** Puter.js APIs  
 
 ## 🚀 Getting Started
